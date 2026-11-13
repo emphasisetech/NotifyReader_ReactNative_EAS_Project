@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Notification Reader",
+    "slug": "notification-reader",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.example.notifyreader"
+    },
+    "plugins": [
+      "./plugins/withNotificationReader.cjs"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e0947d2e-a434-45c5-be66-01625cfd7dfe"
+      }
+    }
+  }
+}
